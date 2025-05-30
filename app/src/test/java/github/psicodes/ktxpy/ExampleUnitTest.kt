@@ -1,4 +1,4 @@
-package github.psicodes.ktxpy
+package com.ankit.pythonpocketide
 
 import org.junit.Test
 

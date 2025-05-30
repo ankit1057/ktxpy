@@ -15,6 +15,6 @@ dependencyResolutionManagement {
 
     }
 }
-rootProject.name = "PythonkTX"
+rootProject.name = "PythonPocketIDE"
 include ':app'
 include ':libp7zip'

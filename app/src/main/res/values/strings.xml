@@ -1,11 +1,148 @@
 <resources>
-    <string name="app_name">Ktxpy</string>
+    <string name="app_name">Python Pocket IDE</string>
     <string name="undo">Undo</string>
     <string name="redo">Redo</string>
     <string name="theme_select">Select Theme</string>
     <string name="save">Save File</string>
-    <string name="add_file">Add File
-    </string> <string name="message_external_storage_rationale">Access to \"External Storage\" is required to manage its files</string>
-    <string name="run_code">run code</string>
-    <string name="extra_menu">extra menu</string>
+    <string name="add_file">Add File</string>
+    <string name="message_external_storage_rationale">Access to \"External Storage\" is required to manage its files</string>
+    <string name="run_code">Run Code</string>
+    <string name="extra_menu">Extra Menu</string>
+    
+    <!-- PPIDE Enhanced Strings -->
+    <string name="app_description">Professional Python IDE for Android with AI-powered features</string>
+    <string name="home">Home</string>
+    <string name="projects">Projects</string>
+    <string name="terminal">Terminal</string>
+    <string name="libraries">Libraries</string>
+    <string name="samples">Samples</string>
+    <string name="editor">Editor</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Project Management -->
+    <string name="create_project">Create Project</string>
+    <string name="open_project">Open Project</string>
+    <string name="delete_project">Delete Project</string>
+    <string name="export_project">Export Project</string>
+    <string name="import_project">Import Project</string>
+    <string name="project_name">Project Name</string>
+    <string name="project_description">Project Description</string>
+    <string name="project_template">Project Template</string>
+    <string name="project_files">Project Files</string>
+    <string name="project_dependencies">Dependencies</string>
+    <string name="project_settings">Project Settings</string>
+    <string name="project_main_file">Main File</string>
+    <string name="project_run">Run Project</string>
+    <string name="project_terminal">Project Terminal</string>
+    <string name="project_shell">Project Shell</string>
+    
+    <!-- Project Templates -->
+    <string name="template_empty">Empty Project</string>
+    <string name="template_empty_desc">A minimal Python project structure</string>
+    <string name="template_flask">Flask API</string>
+    <string name="template_flask_desc">A starter RESTful API using Flask framework</string>
+    <string name="template_data_analysis">Data Analysis</string>
+    <string name="template_data_analysis_desc">Data analysis project with pandas and matplotlib</string>
+    <string name="template_machine_learning">Machine Learning</string>
+    <string name="template_machine_learning_desc">ML project template with scikit-learn</string>
+    
+    <!-- Dependency Management -->
+    <string name="install_dependencies">Install Dependencies</string>
+    <string name="add_dependency">Add Dependency</string>
+    <string name="remove_dependency">Remove Dependency</string>
+    <string name="dependency_name">Package Name</string>
+    <string name="dependency_version">Version</string>
+    <string name="requirements_file">requirements.txt</string>
+    <string name="pip_install">Pip Install</string>
+    <string name="pip_list">Pip List</string>
+    <string name="pip_upgrade">Pip Upgrade</string>
+    
+    <!-- File Management -->
+    <string name="create_file">Create File</string>
+    <string name="create_folder">Create Folder</string>
+    <string name="rename_file">Rename File</string>
+    <string name="delete_file">Delete File</string>
+    <string name="copy_file">Copy File</string>
+    <string name="move_file">Move File</string>
+    <string name="file_explorer">File Explorer</string>
+    <string name="python_files">Python Files</string>
+    <string name="legacy_files">Legacy Files</string>
+    <string name="convert_to_project">Convert to Project</string>
+    
+    <!-- Code Execution -->
+    <string name="run_file">Run File</string>
+    <string name="run_project">Run Project</string>
+    <string name="run_module">Run Module</string>
+    <string name="debug_mode">Debug Mode</string>
+    <string name="interactive_mode">Interactive Mode</string>
+    <string name="execution_completed">Execution completed</string>
+    <string name="execution_failed">Execution failed</string>
+    
+    <!-- Editor Features -->
+    <string name="syntax_highlighting">Syntax Highlighting</string>
+    <string name="code_completion">Code Completion</string>
+    <string name="auto_indent">Auto Indent</string>
+    <string name="line_numbers">Line Numbers</string>
+    <string name="word_wrap">Word Wrap</string>
+    <string name="search">Search</string>
+    <string name="replace">Replace</string>
+    <string name="goto_line">Go to Line</string>
+    <string name="find_and_replace">Find and Replace</string>
+    
+    <!-- UI Actions -->
+    <string name="create">Create</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="done">Done</string>
+    <string name="loading">Loading</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="warning">Warning</string>
+    <string name="info">Info</string>
+    
+    <!-- Messages -->
+    <string name="project_created_successfully">Project created successfully!</string>
+    <string name="project_deleted_successfully">Project deleted successfully!</string>
+    <string name="project_exported_successfully">Project exported successfully!</string>
+    <string name="project_imported_successfully">Project imported successfully!</string>
+    <string name="file_saved_successfully">File saved successfully!</string>
+    <string name="dependencies_installed_successfully">Dependencies installed successfully!</string>
+    <string name="invalid_project_name">Invalid project name</string>
+    <string name="project_already_exists">Project already exists</string>
+    <string name="no_projects_found">No projects found</string>
+    <string name="no_files_found">No files found</string>
+    <string name="permission_required">Permission required</string>
+    <string name="storage_permission_required">Storage permission is required to access files</string>
+    
+    <!-- Help and Instructions -->
+    <string name="getting_started">Getting Started</string>
+    <string name="create_first_project">Create your first Python project to get started</string>
+    <string name="project_help">Projects help you organize related Python files and manage dependencies</string>
+    <string name="template_help">Choose a template to get started quickly with common Python project types</string>
+    <string name="dependency_help">Manage Python packages required by your project</string>
+    <string name="terminal_help">Use the terminal to run commands and interact with your Python environment</string>
+    
+    <!-- Version and Credits -->
+    <string name="version">Version</string>
+    <string name="version_number">1.0.0</string>
+    <string name="developer">Developer</string>
+    <string name="developer_name">Ankit Kumar</string>
+    <string name="university">Chandigarh University</string>
+    <string name="course">MCA Final Year Project</string>
+    <string name="based_on">Based on KtxPy by PsiCodes</string>
+    <string name="open_source">Open Source Licenses</string>
+    
+    <!-- Feature Descriptions -->
+    <string name="feature_project_management">Project-based development with templates</string>
+    <string name="feature_dependency_management">Automatic dependency management with pip</string>
+    <string name="feature_code_editor">Advanced code editor with syntax highlighting</string>
+    <string name="feature_terminal">Integrated terminal with Python environment</string>
+    <string name="feature_file_management">Complete file and folder management</string>
+    <string name="feature_import_export">Project import/export capabilities</string>
 </resources>

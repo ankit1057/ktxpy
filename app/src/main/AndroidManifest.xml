@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="github.psicodes.ktxpy"
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -8,7 +7,7 @@
         tools:ignore="ScopedStorage" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:name="github.psicodes.ktxpy.Application"
+        android:name="com.ankit.pythonpocketide.Application"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -18,13 +17,13 @@
         android:requestLegacyExternalStorage="true"
         tools:targetApi="34">
         <activity
-            android:name="github.psicodes.ktxpy.activities.TermActivity"
+            android:name="com.ankit.pythonpocketide.activities.TermActivity"
             android:theme="@style/Theme.PythonKTX"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"
             />
         <activity
-            android:name="github.psicodes.ktxpy.activities.HomeActivity"
+            android:name="com.ankit.pythonpocketide.activities.HomeActivity"
             android:exported="true"
             android:theme="@style/Theme.PythonKTX">
             <intent-filter>
@@ -33,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="github.psicodes.ktxpy.activities.EditorActivity"
+            android:name="com.ankit.pythonpocketide.activities.EditorActivity"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustResize"
             android:exported="true">
